@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 1px solid red;
+}
+
+body {
+    width: 1500px;
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding: 10px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: lighter
+  }
+  
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+
+  .top-left{
+      display: inline-block;
+      float: left;
+  }
+  
+  .top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px;
+  }
+  
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  /* Parte incluida a partir del ejercicio */
+
+  .header1 {
+    padding-top: 10px;
+  }
+  .image-logo {
+      height: 38px;
+      float: left;
+      margin: 0 5px;
+  }
+
+  .header2 {
+    background-image: url("./images/city-scape.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    height: 400px;
+
+  }
+
+  .text-header2 {
+    position: relative;
+    left: 250px;
+    top: 100px;
+    width: 500px;
+  }
+
+  .city-scape {
+    float: right;
+    height: 350px;
+    width: 350px;
+}
+
+.header {
+    Background: rgb(32, 101, 136);
+    color: white;
+}
+
+.search-bar {
+    Background-color: rgb(31, 82, 111);
+    padding-top: 1px;
+    font-size: 18px;
+    width: 1000px;
+    height: 25px;
+}
+
+.sign-up-header {
+    Background-color: rgb(31, 82, 111);
+    padding-top: 1px;
+    font-size: 18px;
+    width: 150px;
+    height: 25px;
+}
+
+#section1 {
+    color: white;
+    Background-color: rgb(39, 53, 71);
+    height: 400px;
+    margin: 0 auto;
+}
+
+.text-section1 {
+    float: right;
+    margin-top: 100px;
+    margin-right: 250px;
+    width: 400px;
+
+}
+
+.button-signup {
+    background: rgb(240, 146, 51);
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+}
+
+.collaboration {
+    display: block;
+    float: left;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.wrapped {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+#section2 {
+    background-image: url("./images/forklift.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.text-section3 {
+    margin: 0 auto;
+    width: 50 px;
+}
+
+.find {
+    float: left;
+    width: 100 px;
+}
+
+.discover {
+    float: right;
+    width: 100 px;
+}
+
+.build {
+    float: right;
+
+}
